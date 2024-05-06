@@ -1,0 +1,1 @@
+export const addDataToStore = "ADD DATA TO STORE"
