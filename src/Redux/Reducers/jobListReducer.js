@@ -6,7 +6,7 @@ export const jobListreducer = (storeData = initialData, action)=>{
         case "ADD DATA TO STORE" : {
             return {
                 ...storeData,
-                jobList : action.payload
+                jobList : [...storeData.jobList, ...action.payload]
             }
         }
         default : {

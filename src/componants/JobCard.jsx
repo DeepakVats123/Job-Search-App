@@ -5,7 +5,7 @@ import BoltOutlinedIcon from '@mui/icons-material/BoltOutlined';
 
 
 const JobCard = ({cardData}) => {
-  console.log(cardData)
+
 
   return (
     <Box 
@@ -40,7 +40,10 @@ const JobCard = ({cardData}) => {
       <Box>
         <Typography variant='h6'>About Company:</Typography>
         <Typography fontWeight={'bold'}>About us</Typography>
-        <Typography >{cardData.jobDetailsFromCompany}</Typography>
+        <Box height={'150px'} overflow={'hidden'}>
+          <Typography >{cardData.jobDetailsFromCompany}</Typography>
+        </Box>
+        
         <Box textAlign={'center'}>
         <Link href="#" >View job</Link>
         </Box>
