@@ -1,8 +1,11 @@
-# React + Vite
+# Job Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>Diployed Link</h4>
+<a href='https://weekday-job-app.netlify.app/'></a>
 
-Currently, two official plugins are available:
+<h4>How to run this code</h4>
+<p>Just download and open in your code editor, run command (npm install), and after downloading run this command :- npm run dev</p>
+<br/>
+<p>now project is live, If not you can email me on this address: deepakvats123123gmail.com</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h5>Thanks</h5>
