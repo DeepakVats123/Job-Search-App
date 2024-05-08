@@ -13,10 +13,10 @@ const JobCard = ({cardData}) => {
      width={'350px'}
     //  border={'1px solid gray'}
      borderRadius={'20px'}
-     padding={2}
+     padding={3}
      boxShadow={4}
      sx={{
-      ":hover": {padding: 2.2}
+      ":hover": {padding: 3.2}
      }}
      
      >
@@ -40,7 +40,7 @@ const JobCard = ({cardData}) => {
       <Box>
         <Typography variant='h6'>About Company:</Typography>
         <Typography fontWeight={'bold'}>About us</Typography>
-        <Box height={'150px'} overflow={'hidden'}>
+        <Box height={'250px'} overflow={'hidden'}>
           <Typography >{cardData.jobDetailsFromCompany}</Typography>
         </Box>
         
